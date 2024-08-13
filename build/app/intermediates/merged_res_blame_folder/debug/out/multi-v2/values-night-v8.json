@@ -4,7 +4,7 @@
             "outputFile": "com.example.visite_takeo.app-mergeDebugResources-35:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\mobile-app.05\\StudioProjects\\visite_takeo\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "D:\\floder_test_git\\visite_takeo\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

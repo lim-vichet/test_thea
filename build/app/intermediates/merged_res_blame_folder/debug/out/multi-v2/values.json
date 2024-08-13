@@ -4,6 +4,25 @@
             "outputFile": "com.example.visite_takeo.app-mergeDebugResources-35:/values/values.xml",
             "map": [
                 {
+                    "source": "D:\\floder_test_git\\visite_takeo\\build\\flutter_inappwebview\\intermediates\\packaged_res\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,11,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,102,153,210,259,306,353,426,502",
+                        "endLines": "2,3,4,5,6,7,10,13,21",
+                        "endColumns": "46,50,56,48,46,46,12,12,12",
+                        "endOffsets": "97,148,205,254,301,348,421,497,949"
+                    },
+                    "to": {
+                        "startLines": "395,396,397,398,399,435,455,1541,1881",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "25505,25552,25603,25660,25709,29736,31331,100402,126111",
+                        "endLines": "395,396,397,398,399,435,457,1543,1888",
+                        "endColumns": "46,50,56,48,46,46,12,12,12",
+                        "endOffsets": "25547,25598,25655,25704,25751,29778,31399,100473,126558"
+                    }
+                },
+                {
                     "source": "C:\\Users\\mobile-app.05\\.gradle\\caches\\transforms-3\\9e5b04dc0f7d8418372b23b95f45834b\\transformed\\lifecycle-viewmodel-2.5.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -167,25 +186,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\mobile-app.05\\StudioProjects\\visite_takeo\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "176,832",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "483,998"
-                    },
-                    "to": {
-                        "startLines": "1544,1548",
-                        "startColumns": "4,4",
-                        "startOffsets": "100478,100659",
-                        "endLines": "1547,1550",
-                        "endColumns": "12,12",
-                        "endOffsets": "100654,100823"
-                    }
-                },
-                {
                     "source": "C:\\Users\\mobile-app.05\\.gradle\\caches\\transforms-3\\df3db9de011cb8815b11399f6eb0a354\\transformed\\jetified-play-services-maps-18.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -260,25 +260,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\mobile-app.05\\StudioProjects\\visite_takeo\\build\\flutter_inappwebview\\intermediates\\packaged_res\\debug\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,11,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,102,153,210,259,306,353,426,502",
-                        "endLines": "2,3,4,5,6,7,10,13,21",
-                        "endColumns": "46,50,56,48,46,46,12,12,12",
-                        "endOffsets": "97,148,205,254,301,348,421,497,949"
-                    },
-                    "to": {
-                        "startLines": "395,396,397,398,399,435,455,1541,1881",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "25505,25552,25603,25660,25709,29736,31331,100402,126111",
-                        "endLines": "395,396,397,398,399,435,457,1543,1888",
-                        "endColumns": "46,50,56,48,46,46,12,12,12",
-                        "endOffsets": "25547,25598,25655,25704,25751,29778,31399,100473,126558"
-                    }
-                },
-                {
                     "source": "C:\\Users\\mobile-app.05\\.gradle\\caches\\transforms-3\\e2016ae23b75117f41314e93e7ce6e4b\\transformed\\transition-1.4.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
@@ -310,6 +291,25 @@
                         "startOffsets": "22513",
                         "endColumns": "59",
                         "endOffsets": "22568"
+                    }
+                },
+                {
+                    "source": "D:\\floder_test_git\\visite_takeo\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "176,832",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "483,998"
+                    },
+                    "to": {
+                        "startLines": "1544,1548",
+                        "startColumns": "4,4",
+                        "startOffsets": "100478,100659",
+                        "endLines": "1547,1550",
+                        "endColumns": "12,12",
+                        "endOffsets": "100654,100823"
                     }
                 },
                 {

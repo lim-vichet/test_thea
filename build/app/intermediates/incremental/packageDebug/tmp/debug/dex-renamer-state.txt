@@ -1,10 +1,10 @@
-#Wed Jul 05 09:16:59 ICT 2023
-base.0=C\:\\Users\\mobile-app.05\\StudioProjects\\visite_takeo\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\mobile-app.05\\StudioProjects\\visite_takeo\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\mobile-app.05\\StudioProjects\\visite_takeo\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.3=C\:\\Users\\mobile-app.05\\StudioProjects\\visite_takeo\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
-base.4=C\:\\Users\\mobile-app.05\\StudioProjects\\visite_takeo\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-base.5=C\:\\Users\\mobile-app.05\\StudioProjects\\visite_takeo\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Tue Aug 13 14:09:29 ICT 2024
+base.0=D\:\\floder_test_git\\visite_takeo\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=D\:\\floder_test_git\\visite_takeo\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
+base.2=D\:\\floder_test_git\\visite_takeo\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.3=D\:\\floder_test_git\\visite_takeo\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.4=D\:\\floder_test_git\\visite_takeo\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+base.5=D\:\\floder_test_git\\visite_takeo\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=0/classes.dex

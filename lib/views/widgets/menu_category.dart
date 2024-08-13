@@ -23,7 +23,7 @@ class _MenuCategoryScreenState extends State<MenuCategoryScreen> {
     return Container(
       width: 1000,
       height: 100,
-      color: Colors.green,
+      // color: Colors.green,
       child: ListView(
         scrollDirection: Axis.horizontal,
         primary: true,
