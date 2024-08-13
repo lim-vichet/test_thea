@@ -1,0 +1,149 @@
+
+import '../views/screens/accommodation/accommodation.dart';
+import '../views/screens/accommodation/chamka_house.dart';
+import '../views/screens/accommodation/green_house.dart';
+import '../views/screens/accommodation/vichet_holiday_home.dart';
+import '../views/screens/accommodation/vichet_hotel.dart';
+import '../views/screens/accommodation/vichet_river_resort.dart';
+import '../views/screens/appbar_animation/appbar_animation.dart';
+import '../views/screens/attendance/attendance.dart';
+import '../views/screens/cafe_detail/amazon.dart';
+import '../views/screens/cafe_detail/arabica.dart';
+import '../views/screens/cafe_detail/brown.dart';
+import '../views/screens/cafe_detail/cafe_detail_screen.dart';
+import '../views/screens/call/call.dart';
+import '../views/screens/chat.dart';
+import '../views/screens/draggable_scrollable_sheet/draggable_scrollable_sheet.dart';
+import '../views/screens/enjoy_activity_detail_screen/Boating.dart';
+import '../views/screens/enjoy_activity_detail_screen/Volleyball.dart';
+import '../views/screens/enjoy_activity_detail_screen/bath_waterfall.dart';
+import '../views/screens/enjoy_activity_detail_screen/celebrate.dart';
+import '../views/screens/enjoy_activity_detail_screen/climbing.dart';
+import '../views/screens/enjoy_activity_detail_screen/duck_riding.dart';
+import '../views/screens/enjoy_activity_detail_screen/karaoke.dart';
+import '../views/screens/enjoy_activity_detail_screen/ride_cable.dart';
+import '../views/screens/enjoy_activity_detail_screen/tnort_te.dart';
+import '../views/screens/enjoy_activity_detail_screen/water_spray.dart';
+import '../views/screens/food_detail/ahmok.dart';
+import '../views/screens/food_detail/anlouk.dart';
+import '../views/screens/food_detail/food_detail.dart';
+import '../views/screens/food_detail/fried_fish.dart';
+import '../views/screens/food_detail/mchou.dart';
+import '../views/screens/food_detail/mchou_ktis.dart';
+import '../views/screens/food_detail/noodle.dart';
+import '../views/screens/food_detail/num_khmer.dart';
+import '../views/screens/food_detail/num_krok.dart';
+import '../views/screens/food_detail/papaya.dart';
+import '../views/screens/food_detail/pongteakon.dart';
+import '../views/screens/food_detail/prahok_beef_belly.dart';
+import '../views/screens/food_detail/roast_beef.dart';
+import '../views/screens/food_detail/sangvak.dart';
+import '../views/screens/food_detail/trape.dart';
+import '../views/screens/homepage/homepage.dart';
+import '../views/screens/information_screen_detail/covid_19_screen.dart';
+import '../views/screens/information_screen_detail/gangster_screen.dart';
+import '../views/screens/information_screen_detail/khmer_new_year_screen.dart';
+import '../views/screens/location/home_location.dart';
+import '../views/screens/main_screen/main_screen.dart';
+import '../views/screens/news/news.dart';
+import '../views/screens/notification/notification_screen.dart';
+import '../views/screens/phone_otp/code_verify.dart';
+import '../views/screens/phone_otp/phone_verify.dart';
+import '../views/screens/resort/anlong_phnheav_resort.dart';
+import '../views/screens/resort/bati_river_resort.dart';
+import '../views/screens/resort/chiso_mountain_resort.dart';
+import '../views/screens/resort/gold_fish_resort.dart';
+import '../views/screens/resort/natural_lake.dart';
+import '../views/screens/resort/putkiri_resort.dart';
+import '../views/screens/splash_screen/splash_screen.dart';
+import '../views/screens/splash_screen_lottie/splash_screen_lottie.dart';
+import '../views/screens/sub_category/PhorkWaterfallScreen.dart';
+import '../views/screens/sub_category/anlong_pnhheav.dart';
+import '../views/screens/sub_category/bati_river.dart';
+import '../views/screens/sub_category/bayornkor_mountain.dart';
+import '../views/screens/sub_category/chiso_mountain.dart';
+import '../views/screens/sub_category/gold_fish.dart';
+import '../views/screens/sub_category/neang_kmao_temple.dart';
+import '../views/screens/sub_category/put_kiri.dart';
+import '../views/screens/sub_category/sub_category.dart';
+import '../views/screens/sub_category/takeo_lobster.dart';
+import '../views/screens/sub_category/tamao_mountain.dart';
+import '../views/screens/sub_category/tnort_te.dart';
+import '../views/screens/sub_category_detail/sub_category_detail.dart';
+
+final routes = {
+  HomePage.routeName:(context)=>const HomePage(),
+  MainScreen.routeName:(context)=>const MainScreen(),
+  HomeLocation.routeName:(context)=>const HomeLocation(),
+  NotificationScreen.routeName:(context)=>const NotificationScreen(),
+  SplashScreen.routeName:(context)=>const SplashScreen(),
+  AppbarAnimation.routeName:(context)=>const AppbarAnimation(),
+  MyAttendance.routeName:(context)=>const MyAttendance(),
+  PhoneVerify.routeName:(context)=>const PhoneVerify(),
+  ScrollableSheet.routeName:(context)=>const ScrollableSheet(),
+  SplashScreenLottie.routeName:(context)=>const SplashScreenLottie(),
+  CallScreen.routeName:(context)=>const CallScreen(),
+  SubCategory.routeName:(context)=>const SubCategory(),
+  SubCategoryDetail.routeName:(context)=>const SubCategoryDetail(),
+  FoodDetail.routeName:(context)=>const FoodDetail(),
+  PongteakonScreen.routeName:(context)=>const PongteakonScreen(),
+  MchouKtisScreen.routeName:(context)=>const MchouKtisScreen(),
+  AhmokScreen.routeName:(context)=>const AhmokScreen(),
+  NumKrokScreen.routeName:(context)=>const NumKrokScreen(),
+  AnloukScreen.routeName:(context)=>const AnloukScreen(),
+  MchouScreen.routeName:(context)=>const MchouScreen(),
+  FriedFishScreen.routeName:(context)=>const FriedFishScreen(),
+  RoastBeefScreen.routeName:(context)=>const RoastBeefScreen(),
+  PrahokBeefBellyScreen.routeName:(context)=>const PrahokBeefBellyScreen(),
+  NoodleScreen.routeName:(context)=>const NoodleScreen(),
+  PapayaScreen.routeName:(context)=>const PapayaScreen(),
+  TrapeScreen.routeName:(context)=>const TrapeScreen(),
+  NumKhmerScreen.routeName:(context)=>const NumKhmerScreen(),
+  SangvakScreen.routeName:(context)=>const SangvakScreen(),
+  GoldFishScreen.routeName:(context)=>const GoldFishScreen(),
+  TamaoMountainScreen.routeName:(context)=>const TamaoMountainScreen(),
+  ChisoMountain.routeName:(context)=>const ChisoMountain(),
+  PhorkWaterfallScreen.routeName:(context)=>const PhorkWaterfallScreen(),
+  BayornkorMountainScreen.routeName:(context)=>const BayornkorMountainScreen(),
+  TakeoLobsterScreen.routeName:(context)=>const TakeoLobsterScreen(),
+  BatiRiverScreen.routeName:(context)=>const BatiRiverScreen(),
+  NeangKmaoTempleScreen.routeName:(context)=>const NeangKmaoTempleScreen(),
+  AnlongPhheavScreen.routeName:(context)=>const AnlongPhheavScreen(),
+  PutKiriScreen.routeName:(context)=>const PutKiriScreen(),
+  TnortTeScreen.routeName:(context)=>const TnortTeScreen(),
+  CafeDetailScreen.routeName:(context)=>const CafeDetailScreen(),
+  AmazonScreen.routeName:(context)=>const AmazonScreen(),
+  ArabicaScreen.routeName:(context)=>const ArabicaScreen(),
+  BrownScreen.routeName:(context)=>const BrownScreen(),
+  AccommodationScreen.routeName:(context)=>const AccommodationScreen(),
+  VichetHotelScreen.routeName:(context)=>const VichetHotelScreen(),
+  GreenHouseScreen.routeName:(context)=>const GreenHouseScreen(),
+  ChamkaHouseScreen.routeName:(context)=>const ChamkaHouseScreen(),
+  VichetHolidayHomeScreen.routeName:(context)=>const VichetHolidayHomeScreen(),
+  VichetRiverResortScreen.routeName:(context)=>const VichetRiverResortScreen(),
+  GoldFishResortScreen.routeName:(context)=>const GoldFishResortScreen(),
+  AnlongPhnheavResortScreen.routeName:(context)=>const AnlongPhnheavResortScreen(),
+  PutKiriResortScreen.routeName:(context)=>const PutKiriResortScreen(),
+  ChisoMountainResortScreen.routeName:(context)=>const ChisoMountainResortScreen(),
+  BatiRiverResortScreen.routeName:(context)=>const BatiRiverResortScreen(),
+  NaturalLakeScreen.routeName:(context)=>const NaturalLakeScreen(),
+  ChatScreen.routeName:(context)=>const ChatScreen(),
+  BoatingScreen.routeName:(context)=>const BoatingScreen(),
+  RideCableScreen.routeName:(context)=>const RideCableScreen(),
+  BathWaterfall.routeName:(context)=>const BathWaterfall(),
+  DuckRidingScreen.routeName:(context)=>const DuckRidingScreen(),
+  TnortTeScreenDetail.routeName:(context)=>const TnortTeScreenDetail(),
+  ClimbingScreen.routeName:(context)=>const ClimbingScreen(),
+  KaraokeScreen.routeName:(context)=>const KaraokeScreen(),
+  CelebrateScreen.routeName:(context)=>const CelebrateScreen(),
+  WaterSprayScreen.routeName:(context)=>const WaterSprayScreen(),
+  VolleyballScreen.routeName:(context)=>const VolleyballScreen(),
+  KhmerNewYearScreen.routeName:(context)=>const KhmerNewYearScreen(),
+  GangsterScreen.routeName:(context)=>const GangsterScreen(),
+  Covid19Screen.routeName:(context)=>const Covid19Screen(),
+  NewsScreen.routeName:(context)=>const NewsScreen(),
+
+
+
+
+};
