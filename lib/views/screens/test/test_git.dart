@@ -15,7 +15,8 @@ class _TestGitScreenState extends State<TestGitScreen> {
     return const Scaffold(
       body: Column(
         children: [
-          Text("Hello kon papa")
+          Text("Hello kon papa"),
+          Text("Develop"),
         ],
       ),
     );
