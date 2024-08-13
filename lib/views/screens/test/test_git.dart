@@ -17,6 +17,7 @@ class _TestGitScreenState extends State<TestGitScreen> {
         children: [
           Text("Hello kon papa"),
           Text("Develop"),
+          Text("Vichet"),
         ],
       ),
     );
